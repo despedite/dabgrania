@@ -1,0 +1,14 @@
+{
+  "name": "dabgrana",
+  "version": "1.0.0",
+  "description": "Un bot experimemtal para BareiroPlaza.",
+  "main": "index.js",
+  "scripts": {
+    "test": "Hola, Mundo"
+  },
+  "author": "Endo",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.3.0"
+  }
+}
