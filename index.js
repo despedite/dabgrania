@@ -55,5 +55,5 @@ message.channel.send("Aaaaaaa hola soy lagraña bot no callate. beep boop tts", 
   }
 });
 
-
-client.login("NDExNjQ3NDAxMjQ2NTg4OTM5.DV-yiw.cPbZe3vunGH4Ue7Rd9qLUyTwwvU");
+//Ingresa tu token.
+client.login("TU_TOKEN_AQUI");
