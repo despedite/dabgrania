@@ -1,12 +1,12 @@
 {
   "name": "dabgrana",
-  "version": "1.0.0",
-  "description": "Un bot experimemtal para BareiroPlaza.",
+  "version": "1.1.0",
+  "description": "An experimental bot",
   "main": "index.js",
   "scripts": {
-    "test": "Hola, Mundo"
+    "test": "Hello, World!"
   },
-  "author": "Endo",
+  "author": "DespediteErik",
   "license": "ISC",
   "dependencies": {
     "discord.js": "^11.3.0"
