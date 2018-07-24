@@ -5,7 +5,7 @@ client.on("ready", () => {
   console.log("Lagbot, ready to work.");
 });
 
-//Código re loco para inicializar el embed de !dab, y que el estado de Dabgraña sea de !comandos.
+//Code to initialize the !dab embed, and define !commands.
 
 client.on('ready', () => {
   client.user.setActivity('!commands')
@@ -13,12 +13,6 @@ client.on('ready', () => {
 
  const embed = new Discord.RichEmbed()
 .setImage("https://image.ibb.co/gTQ6Dx/ezgif_com_video_to_gif.gif");
-
-function rng() {
-    var rand = ['ONE', 'TWO', 'THREE', 'FOUR', 'FIVE', 'SIX', 'SEVEN'];
-
-    return rand[Math.floor(Math.random()*rand.length)];
-}
 
 //Code actually starts, like, for real
 
@@ -36,10 +30,10 @@ client.on("message", (message) => {
 });
 
 client.on("message", (message) => {
-  if (message.content.startsWith("!comandos")) {
+  if (message.content.startsWith("!commands")) {
     message.channel.send("**!ping**: Play a ping-pong match.\n**!dab**: Dabgraña's signature move.");
   }
 });
 
-//Ingresa tu token.
+//Get your token in 'ere!
 client.login("TU_TOKEN_AQUI");
