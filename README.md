@@ -9,5 +9,7 @@ This is completely outdated and I'm keeping it here because legacy content. Main
 ### Included commands:
 
 **!commands** - Prints this, basically.
+
 **!ping** - Outputs a pong. Also, a cute emoji!
+
 **!dab** - Sends a dabbing embed coming your way.
